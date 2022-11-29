@@ -1,0 +1,10 @@
+<ion-toolbar>
+  <ion-segment scrollable mode="md">
+      <ion-segment-button [routerLink]="['/navigate/page1']" value="page1"><ion-label>page 1</ion-label></ion-segment-button>
+      <ion-segment-button [routerLink]="['/navigate/page2']" value="page2"><ion-label>page 2</ion-label></ion-segment-button>
+      <ion-segment-button [routerLink]="['/navigate/page3']" value="page3"><ion-label>page 3</ion-label></ion-segment-button>
+  </ion-segment>
+</ion-toolbar>
+<ion-content>
+  <router-outlet></router-outlet>
+</ion-content>

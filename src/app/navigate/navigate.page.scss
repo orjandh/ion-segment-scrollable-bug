@@ -1,0 +1,16 @@
+:host {
+    overflow: visible;//Essential to keep the sticky position
+}
+
+ion-content {
+    --background: var(--ion-color-light);
+    --padding-top: 4rem;
+    height: calc(100% - 9.8rem);
+}
+
+ion-toolbar {
+    --background: var(--ion-color-light-shade);
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+}

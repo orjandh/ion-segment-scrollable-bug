@@ -1,3 +1,7 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <app-main-menu>
+    <div class="route-container">
+      <router-outlet #routerOutlet="outlet"></router-outlet>
+    </div>
+  </app-main-menu>
 </ion-app>
